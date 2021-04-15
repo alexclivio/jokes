@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* .jokes-container {
+  display: flex;
+  justify-content: center;
+} */
+
+.jokes-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #d7d7d7;
+  width: 900px;
+}
+
+.jokes-top {
+  display: flex;
+  border-bottom: 1px solid #d7d7d7;
+  padding-bottom: 25px;
+}
+
+.jokes-top button {
+  margin-right: 400px;
+  background-color: #66ffcc;
+  border: none;
+  /* color: black; */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.jokes-top button:hover {
+  background-color: #00ffcc;
+}
+
+.jokes-bottom {
+  margin-top: 50px;
+}
+
+.punchline-btn{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.punchline-text {
+  text-align: right
+}
+
+.jokes-bottom button {
+  background-color: #0099ff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 16px;
+  border: none;
+}
+
+.punchline-btn button:hover {
+  background-color: #0066ff;
+}
+
+.loading-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.leftQ {
+  z-index: 1;
+  position: absolute;
+  width: 110px;
+  height: 70px;
+  background: url("https://www.pngkey.com/png/full/41-412025_quote-icon.png") no-repeat;
+  background-size: 93px;
+  opacity: 30%;
+  margin-top: -22px;
+}
+
+/* .rightQ {
+  transform: scaleY(-1);
+  z-index: 1;
+  position: absolute;
+  width: 110px;
+  height: 70px;
+  background: url("https://www.pngkey.com/png/full/41-412025_quote-icon.png") no-repeat;
+  background-size: 93px;
+  opacity: 50%;
+  margin-top: -22px;
+} */
+
+.jokes-bottom p {
+  padding-left: 46px;
+}
